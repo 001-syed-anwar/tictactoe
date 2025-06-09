@@ -2,12 +2,14 @@
   "name": "tictactoe",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://001-syed-anwar.github.io/tictactoe",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.513.0",
     "postcss": "^8.5.4",
     "react": "^19.1.0",
@@ -20,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
