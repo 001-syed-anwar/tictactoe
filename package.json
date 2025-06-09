@@ -24,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "deploy":"gh-pages -d build -r https://001-syed-anwar.github.io/tictactoe"
   },
   "eslintConfig": {
     "extends": [
